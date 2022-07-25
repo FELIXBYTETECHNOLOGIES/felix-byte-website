@@ -1,0 +1,162 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: circular std black, sans-serif;
+}
+
+html {
+	/* Definition of 1rem where 1rem = 10px => 10px/16px => 62.5% */
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul li {
+	color: #4df0cb;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	margin-right: 4.8rem;
+}
+
+ul li span {
+	color: white;
+}
+
+.container {
+	padding: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 0.5;
+}
+
+.spacer-md {
+	margin-bottom: 2rem;
+}
+
+.title {
+	font-size: 6.8rem;
+	font-weight: 700;
+}
+
+/* Header */
+header {
+	padding: 2rem;
+	background-color: rgba(180, 225, 225, 255);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.company {
+	font-size: 2.8rem;
+	font-weight: 900;
+	letter-spacing: 0.2rem;
+}
+
+.contact {
+	font-size: 1.6rem;
+	line-height: 2rem;
+	font-weight: 700;
+	padding: 1.2rem 2.8rem;
+	-webkit-border-radius: 10rem;
+	-moz-border-radius: 10rem;
+	border-radius: 10rem;
+	background-color: black;
+}
+
+/* About */
+.about-sub-title {
+	font-size: 2rem;
+	line-height: 3.6rem;
+	letter-spacing: 0.2rem;
+}
+
+.about-image {
+	width: 70rem;
+}
+
+.get-in-touch {
+	padding: 1.6rem 3.6rem;
+	font-size: 1.8rem;
+	font-weight: 700;
+	-webkit-border-radius: 12rem;
+	-moz-border-radius: 12rem;
+	border-radius: 12rem;
+	color: black;
+	border: 0.25rem solid black;
+	display: inline-block;
+	cursor: pointer;
+	background-color: transparent;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.get-in-touch:hover {
+	color: white;
+	background-color: black;
+	transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	-moz-transform: scale(1.2, 1.2);
+}
+
+/* Services */
+.services {
+	background-color: black;
+}
+
+.services-image {
+	width: 40rem;
+}
+
+.services-title {
+	font-size: 4.4rem;
+	font-weight: 700;
+	color: white;
+}
+
+/* Footer */
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(180, 225, 225, 255);
+	padding: 4rem;
+}
+
+.reach-out-title {
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+
+.reach-out {
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+.link {
+	height: 3.2rem;
+	margin-right: 1.2rem;
+}
